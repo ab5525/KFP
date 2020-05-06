@@ -1,0 +1,50 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background: #0D0556;
+    background: -webkit-linear-gradient(top left, #0D0556, #7376A5);
+    background: -moz-linear-gradient(top left, #0D0556, #7376A5);
+    background: linear-gradient(to bottom right, #0D0556, #7376A5);
+  
+    .logo-container {
+      height: 100%;
+      width: 70px;
+      padding-left: 25px;
+      padding-top:10px;
+      display: flex;
+      justify-content: flex-start;
+      
+    }
+
+    .logo{
+        color: white;
+        font-size: 36px;
+    }
+
+    .logo-year{
+        color: #D3212D;
+        font-size: 36px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+  
+    .options {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .option {
+        padding: 10px 15px;
+        color: white;
+        font-size: 24px
+
+
+      }
+    }
+  }
+  
