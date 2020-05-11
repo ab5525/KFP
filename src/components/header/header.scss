@@ -3,11 +3,12 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     background: #0D0556;
     background: -webkit-linear-gradient(top left, #0D0556, #7376A5);
     background: -moz-linear-gradient(top left, #0D0556, #7376A5);
     background: linear-gradient(to bottom right, #0D0556, #7376A5);
+    position: fixed;
   
     .logo-container {
       height: 100%;

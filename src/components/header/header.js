@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import './header.scss';
+import { connect } from 'react-redux';
 
 const Header = () => (
     <div className='header'>
@@ -19,6 +20,9 @@ const Header = () => (
 
 );
 
+const mapStateToProps = (state) =>({
+    selected:state.donate.selected
+})
 
 
-export default withRouter(Header);
+export default connect(mapStateToProps, null)(Header);

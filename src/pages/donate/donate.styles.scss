@@ -1,3 +1,23 @@
+
+.big-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-image: url('../../assets/KenDonateLarge.png');
+    background-size:100% 100%;
+    background-color: blue;
+
+    
+}
+
+.container{
+    background-color: #e7e7e7  ;
+    width: 50%;
+    padding: 0px 20px 20px;
+    opacity: .9;
+
+}
+
 .form{
     display: flex;
     flex-direction: column;
@@ -13,14 +33,14 @@
     align-items: center;
 }
 
-.but{
+.picture{
+    width: 100%;
 
 }
 
 
-.container{
-    background-color: #e7e7e7  ;
-    width: 50%;
-    padding: 0px 20px 20px;
+
+.legal-text{
+    text-align: left;
 
 }
